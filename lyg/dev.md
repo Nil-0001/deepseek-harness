@@ -31,5 +31,5 @@ git push origin master
 
 ```bash
 git pull origin master
-git push origin master
+git push -u origin master
 ```
