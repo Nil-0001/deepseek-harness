@@ -31,6 +31,16 @@ pnpm dsh web
 pnpm run start:desktop
 ```
 
+## 挂载插件
+
+```bash
+pnpm dsh plugin --profile web add "D:\Desktop\BaiduSyncdisk\Miluo\LYG_agent\LYG_ui"  # 添加插件
+
+pnpm dsh plugin --profile web list  # 插件列表
+
+pnpm dsh plugin --profile web remove @nilwang/dsh-client-ui-theme  # 卸载插件
+```
+
 ## 更新
 
 ### 远端更新
