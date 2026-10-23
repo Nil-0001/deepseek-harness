@@ -39,6 +39,8 @@ pnpm dsh plugin --profile web add "D:\Desktop\BaiduSyncdisk\Miluo\LYG_agent\LYG_
 pnpm dsh plugin --profile web list  # 插件列表
 
 pnpm dsh plugin --profile web remove @nilwang/dsh-client-ui-theme  # 卸载插件
+
+pnpm dsh web  # 启动网页端,插件有修改也只需要build插件即可
 ```
 
 ## 更新
