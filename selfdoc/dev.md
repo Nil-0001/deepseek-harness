@@ -3,7 +3,8 @@
 ## 本地模型
 
 llm访问地址：http://miluoinfo.cn/v1
-密钥：gpustack_60576a0a8f0b19c3_9f64c82c2bd78c5dceeeeb9f4217aa06
+llm访问地址：http://10.168.3.98/v1
+密钥：gpustack_ed6749baa8f6bb06_35d57aa6e3f2ca1399d0e8cab5399e5f
 模型名称：
 qwen3.8:27b
 bge-reranker-v2-m3
@@ -49,6 +50,7 @@ pnpm dsh web  # 启动网页端,插件有修改也只需要build插件即可
 
 ```bash
 git pull upstream master
+git pull --rebase upstream master
 git push origin master
 ```
 
